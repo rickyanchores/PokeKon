@@ -1,1 +1,22 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+  background: black;
+  color: whitesmoke;
+}
+
+.pokedex {
+  background: #333;
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+}
+.pokedex .imageBox {
+  width: 200px;
+  height: 200px;
+  border: none;
+  background: coral;
+}
+.pokedex .imageBox img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=styles.css.map */

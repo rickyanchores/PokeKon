@@ -1,0 +1,21 @@
+body{
+    background: black;
+    color: whitesmoke;
+}
+
+.pokedex{
+    background: #333;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    .imageBox{
+        width: 200px;
+        height: 200px;
+        border: none;
+        background: coral;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
