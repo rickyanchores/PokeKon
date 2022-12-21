@@ -1,21 +1,51 @@
 body{
     background: black;
     color: whitesmoke;
+    font-family: monospace;
+    
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn{
+    border: none;
+
+    padding: 1em;
+    margin: 1em;
+}
+.btn:hover{
+    background: red;
+    color: white;
 }
 
 .pokedex{
-    background: #333;
+    background: rgb(183, 41, 41);
     width: 300px;
     height: 300px;
     border-radius: 12px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     .imageBox{
         width: 200px;
         height: 200px;
         border: none;
-        background: coral;
+        background: silver;
+        border-radius: 12px;
         img{
             width: 100%;
             object-fit: cover;
         }
     }
 }
+
