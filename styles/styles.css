@@ -1,7 +1,7 @@
 body {
   background: black;
   color: whitesmoke;
-  font-family: monospace;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -10,10 +10,12 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  border: 1em whitesmoke solid;
 }
 
 .btn {
   border: none;
+  border-radius: 12px;
   padding: 1em;
   margin: 1em;
 }

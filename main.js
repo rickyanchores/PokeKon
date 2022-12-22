@@ -17,5 +17,6 @@ async function getPoke(pokename){
 
 
 btn.addEventListener("click", () => {
-    getPoke(prompt(""))
+    getPoke(prompt("enter pokename "))
 })
+
