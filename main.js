@@ -27,10 +27,8 @@ async function getPoke(pokename){
         })
 }
 
-/*
+
 btn.addEventListener("click", () => {
     getPoke(prompt("enter pokename "))
 })
-*/
 
-getPoke("pikachu")
