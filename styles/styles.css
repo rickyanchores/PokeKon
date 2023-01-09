@@ -39,7 +39,7 @@ body {
   width: 200px;
   height: 200px;
   border: none;
-  background: silver;
+  background: #ccc;
   border-radius: 12px;
 }
 .pokedex .imageBox img {
@@ -50,11 +50,12 @@ body {
 .pokedex .imageBox h3 {
   font-size: 20px;
 }
-.pokedex .movesContainer {
+.pokedex .moveBox {
   font-family: monospace;
-  background: black;
+  background: white;
+  color: #333;
   padding: 1em;
   border-radius: 12px;
-  border: 2px white solid;
+  border: 2px #333 solid;
   text-align: center;
 }/*# sourceMappingURL=styles.css.map */

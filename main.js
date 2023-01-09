@@ -21,8 +21,10 @@ async function getPoke(pokename){
             imageBox.innerHTML = `<img src=${data.sprites.front_default} />`
             weight.innerHTML = `<h3>Weight: ${data.weight}</h3>`
             height.innerHTML = `<h3>Height: ${data.height}</h3>`
-            move.innerHTML = `<p> ${data.moves[17].move.name}</p>`
-
+            move.innerHTML = `<p> ${data.moves[17].move.name}</p>
+                                <p> ${data.moves[14].move.name}</p>
+                                <p> ${data.moves[18].move.name}</p>
+                                <p> ${data.moves[21].move.name}</p>`
         })
 
 }
