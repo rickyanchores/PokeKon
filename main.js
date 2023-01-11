@@ -1,10 +1,11 @@
 let result = document.querySelector(".result")
 let name = document.querySelector(".name")
 let imageBox = document.querySelector(".imageBox")
+let statBox = document.querySelector(".statBox")
 let move = document.querySelector(".move")
 let height = document.querySelector(".height")
 let weight = document.querySelector(".weight")
-
+let stats = document.querySelector(".stats")
 
 let btn = document.querySelector(".btn")
 
@@ -25,6 +26,8 @@ async function getPoke(pokename){
                                 <p> ${data.moves[14].move.name}</p>
                                 <p> ${data.moves[18].move.name}</p>
                                 <p> ${data.moves[21].move.name}</p>`
+            stats.innerHTML = `<p>${data.stats[0].base_stat.name}</p>
+            <p>${data.stats[0].stat.name}</p>`
         })
 
 }

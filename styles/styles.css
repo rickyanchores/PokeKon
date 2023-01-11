@@ -23,6 +23,7 @@ body {
 .btn:hover {
   background: red;
   color: white;
+  cursor: pointer;
 }
 
 .pokedex {
