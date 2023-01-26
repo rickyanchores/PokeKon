@@ -28,7 +28,9 @@ async function getPoke(pokename){
                                 <p> ${data.moves[21].move.name}</p>
                                 <p> ${data.moves[25].move.name}</p>`
             stats.innerHTML = `<p>${data.stats[0].base_stat.name}</p>
-            <p>${data.stats[0].stat.name}</p>`
+            <p>${data.stats[0].stat.name}</p>
+            <p>${data.stats[1].stat.name}</p>
+            <p>${data.stats[2].stat.name}</p>`
         })
 
 }

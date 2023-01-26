@@ -9,8 +9,13 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  height: 500px;
   border: 1em whitesmoke solid;
+}
+
+.pokedex {
+  width: 100%;
+  height: 100%;
 }
 
 .btn {
